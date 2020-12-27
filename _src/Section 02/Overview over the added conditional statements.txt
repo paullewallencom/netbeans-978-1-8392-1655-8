@@ -1,0 +1,46 @@
+Overview over the added conditional statements
+This is an overview over the conditional statements which were added to the program in the last lectures
+
+package courseproject;
+public class CourseProject {
+    public static void main(String[] args) {
+          ... See code before ...
+        if (numberOfApplesIHave == 1) {
+            System.out.println (Oh, it is my last one);
+        }
+        else {
+            System.out.println (I have enough apples);
+        }
+        
+        if (amount 100.0)
+            System.out.println (I have little money.);
+        else
+            System.out.println (Let's go to the restaurant!);
+        
+        if (name.equals(Max)) {
+            System.out.println (Special offer for Max-people.);
+        }
+        
+        int countdown = 10;
+        
+        while (countdown != 0)
+            countdown--;
+           
+        for (int i = 0; i 10; i++) 
+            System.out.println(i);
+        
+        int number = 1;
+        
+        switch (number) {
+            case 1 System.out.println(I have one.);
+                    break;
+            case 2 System.out.println(I have a pair.);
+                    break;
+            case 3 System.out.println(I have a tipple);
+                    break;
+            default System.out.println(I have +number);
+                     break;
+        }
+    }
+    
+}

@@ -1,0 +1,15 @@
+Current overview of the program
+For reference this is a current overview over our program:
+
+package courseproject;
+public class CourseProject {
+        public static void main(String[] args) {      
+           int numberOfApplesIHave;       
+           numberOfApplesIHave = 5;        
+           numberOfApplesIHave = 7;        
+           double amount = 150.66;        
+           String name = "Max";        
+           System.out.println("Hello world " + name + ". I have " + numberOfApplesIHave+ " apples. "+
+                "I have US$ "+amount+" in my bank account." );
+    }
+}

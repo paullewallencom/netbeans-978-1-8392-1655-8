@@ -1,0 +1,26 @@
+The added assignments and operators
+This was added during the last lecture
+
+package courseproject;
+public class CourseProject {
+        public static void main(String[] args) {
+            ...
+           int n = 5;
+           int i = 5  2;
+ 
+           i++;
+           i--;
+        
+           i += 5;
+        
+           double d = 5  2.0;
+        
+           String s = one +   +two;
+        
+           System.out.println (i is +i);
+           System.out.println (d is +d);
+           System.out.println (s is +s);
+       }
+}
+
+

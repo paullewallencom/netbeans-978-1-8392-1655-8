@@ -1,0 +1,148 @@
+The final program
+You will find the complete project attached as ZIP-file to this lecture. These are the classes in the project
+
+The class CourseProject.java   
+
+package courseproject;
+import secondpackage.MyClass;
+public class CourseProject {
+    
+    public static String myMethod (int param, double paramX) {
+        return Out of myMethod param is +param+ and then paramX is +paramX;
+    }
+    
+      @param args the command line arguments
+     
+    public static void main(String[] args) {
+        
+        int numberOfApplesIHave;
+        
+        numberOfApplesIHave = 5;
+        
+        numberOfApplesIHave = 7;
+        
+        double amount = 150.66;
+        
+        String name = Max;
+        
+        System.out.println(Hello world  + name + . I have  + numberOfApplesIHave+  apples. +
+                I have US$ +amount+ in my bank account.
+                );
+        
+        
+        if (numberOfApplesIHave == 1) {
+            System.out.println (Oh, it is my last one);
+        }
+        else {
+            System.out.println (I have enough apples);
+        }
+        
+        if (amount 100.0)
+            System.out.println (I have little money.);
+        else
+            System.out.println (Let's go to the restaurant!);
+        
+        if (name.equals(Max)) {
+            System.out.println (Special offer for Max-people.);
+        }
+        
+        int countdown = 10;
+        
+        while (countdown != 0)
+            countdown--;
+           
+        for (int i = 0; i 10; i++) 
+            System.out.println(i);
+        
+        int number = 1;
+        
+        switch (number) {
+            case 1 System.out.println(I have one.);
+                    break;
+            case 2 System.out.println(I have a pair.);
+                    break;
+            case 3 System.out.println(I have a tipple);
+                    break;
+            default System.out.println(I have +number);
+                     break;
+        }
+        
+        int n = 5;
+        
+        int i = 5  2;
+        
+        i++;
+        i--;
+        
+        i += 5;
+              
+        
+        double d = 5  2.0;
+        
+        String s = one +   +two;
+        
+        System.out.println (i is +i);
+        System.out.println (d is +d);
+        System.out.println (s is +s);
+        
+        
+        String x = myMethod(1, 2.5);
+        String y = myMethod(1, 3.5);
+        String z = myMethod(3, 3.5);
+        System.out.println (x+y+z);
+        
+        MyClass.mySecondMethod();
+        
+        SecondClass secondClass = new SecondClass();
+        
+        secondClass.myThirdMethod();
+        
+        secondClass.setClassVariable(10);
+                       
+        System.out.println (ClassVar is +secondClass.getClassVariable());
+        
+        secondClass.setClassVariable(11);
+        
+         secondClass.classVariable = 11;
+         System.out.println (direct access +secondClass.classVariable);
+        
+        System.out.println (ClassVar is +secondClass.getClassVariable());
+        
+    }
+    
+}
+The class MyClass.java  
+
+package secondpackage;
+public class MyClass {
+    
+    public static void mySecondMethod () {
+        System.out.println (I'm in mySecondMethod);
+    }
+    
+    public void myThirdMethod() {
+        System.out.println(I'm in myThirdMethod);
+    }
+    
+}
+And the class SecondClass.java 
+
+package courseproject;
+import secondpackage.MyClass;
+public class SecondClass extends MyClass {
+    
+    private int classVariable;
+    
+    public int getClassVariable() {
+        return classVariable;
+    }
+    
+    public void setClassVariable(int value){
+        if (value  10)
+            return; 
+        this.classVariable = value;
+    }
+    
+}
+
+
